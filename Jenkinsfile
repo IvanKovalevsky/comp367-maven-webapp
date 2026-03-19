@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     environment {
-        IMAGE_NAME = "IvanKov123/comp367-maven-webapp"
+        IMAGE_NAME = "ivankov123/comp367-maven-webapp"
         IMAGE_TAG = "latest"
         DOCKER_CREDS = credentials('dockerhub-creds')
     }
